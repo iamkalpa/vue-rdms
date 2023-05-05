@@ -1,0 +1,90 @@
+.login-bg{ background:url(./images/Wheel.jpg) no-repeat right top; background-size:cover; width: calc(100% + 30px);
+  height: 100%;
+  position:fixed;
+  margin-left: -15px;
+  margin-right: -15px;}
+  .login-panel-outer{ position:fixed; margin:auto; top:0;height:355px;}
+  .login_frm_step2 {
+  margin-top: 80px;
+  padding: 20px;
+}
+  .w-9{ width:90px;}
+  .loginbg_step2 {position: fixed;left: 0px;right: 0px;top: 0px;bottom: 0px;margin: auto;background-position: center center;width: 576px;height: 362px;background: #fff url(/images/mg-logo.svg) left bottom no-repeat;
+  background-size: 226px; background-position: bottom 20px left 20px; -webkit-box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.75);-moz-box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.75);box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.75); display:flex;}
+
+  .loginbg {position: fixed;left: 0px;right: 0px;top: 0px;bottom: 0px;margin: auto;background-position: center center;width: 576px;height: 362px; background: #fff url(/images/mg-logo.svg) left bottom no-repeat;
+  background-size: 226px; background-position: bottom 20px left 20px;  -webkit-box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.75);-moz-box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.75);box-shadow: 0px 0px 17px 0px rgba(0,0,0,0.75); display:flex;}
+  .logo{position: absolute; top: 9px; right: 27px; z-index:9;}			
+  .main-wrapper{ position:relative;}		
+  .login-panel-outer  {width: 580px; height: 310px;float: none; background: #fff url(images/mg-logo.svg) left bottom no-repeat;background-size: 226px; margin:0 auto;position:absolute; top:129px; left:0px; right:0px; bottom:0px; background-position: bottom 20px left 20px;}
+  .login-title{ width:272px; display:inline-block; padding:10px 0 0 15px;}
+  .login-panel{ width:304px; display:inline-block; border-left: 1px solid #d2d2d2; background-color: #e6e6e6; vertical-align:top; height: 100%; position:relative;}
+  .login_frm{ margin-top:10px; padding:20px 20px 80px; }
+  .login_frm_step2{ margin-top:44px; padding:20px;}
+  .inpt {font-size: 13px;font-weight: normal;font-family: 'Roboto', sans-serif; display:flow-root;}
+  .inpt .form-control{ font-size:14px; font-weight:normal;}
+  .lgn_btn { width: 115px; text-transform: uppercase; padding: 7px 0px; text-align: center;background: #cf2230; border: 1px solid #cf2230; color: #fff;font-size: 14px; box-sizing: border-box; margin-left: 0px; cursor: pointer;}
+   h1 {font-family: 'gill_sanssemibold'; vertical-align: top;text-transform: uppercase;
+  font-size: 33 px;
+  line-height: 37 px;
+  color: #cf2230; margin: 14px 20px 0px 0px;letter-spacing: -2px;text-align: left;}
+  h2 {color: #262626;font-size: 14px;margin-bottom: 0;margin-top: 5px; margin-left: 1px; text-align: left;text-indent: 0px!important;}
+  a { color: #000;outline: none;
+  }
+  label{ margin-bottom:0px;}
+  .footer_top {overflow: hidden; box-sizing: border-box; position:absolute; width:calc(100% + 15px); bottom:0px; background: rgba(0, 0, 0, 0) linear-gradient(0deg, rgb(142, 142, 142) 0%, rgb(180, 180, 180) 100%) repeat scroll 0 0; padding: 14px 51px 14px 51px;}
+  .calltext{margin: 20px 2px 2px 20px; text-align:left; font-size:12px;}
+  .copytxt{padding:10px 51px; font-size: 13px; font-family: sans-serif;}
+  .alert.alert-danger.alert-sm.form-group.inpt{position: absolute;
+      padding: 5px 10px;
+      margin-bottom: 1rem;
+      border: 1px solid transparent;
+      border-radius: .25rem;
+      bottom: 0px;
+      width: 80%;}
+  
+  @media screen and (max-width: 1024px){
+  html{background: url(./images/Wheel.jpg) no-repeat top right fixed; background-size: cover;}
+  body{background: transparent;}
+  .main-wrapper{ position:inherit;}
+  .bgimg{ display:none;}
+  .login-panel-outer { width: 580px;height: 324px;float: none; background: #fff url(images/mg-logo.svg) left bottom no-repeat; background-size: 256px; margin: auto;position:inherit;top: 0; left: 0px; right: 0px;bottom: 0px; margin-top: 50px;}
+    }
+  @media screen and (max-width: 600px){
+    .main-wrapper{ position:relative; overflow:hidden; margin-bottom:100px;}
+  .login-panel-outer {
+      width: 90%;
+      height: 360px;
+      float: none;
+      background: #fff url(images/mg-logo.svg) left bottom no-repeat;
+      background-size: 256px;
+      margin: auto;
+      position: inherit;
+      top: 0;
+      left: 0px;
+      right: 0px;
+      bottom: 0px;
+      margin-top: 50px;
+    margin-bottom: 50px;
+  } 
+  .login-title { width: 100%;display: inline-block; padding: 10px 0 20px 15px;}
+  .login-panel {width: 100%;display: inline-block;border-left: 1px solid #d2d2d2; background-color: #e6e6e6;vertical-align: top; height: 100%;}
+  .login-panel-outer{background: #fff url(images/mg-logo.svg) right top no-repeat; background-size: 210px;}
+  .footer_top{ position:fixed; margin-top:50px;}
+  }	
+  @media screen and (max-width: 375px){
+  .login-panel-outer {
+      background: #fff url(images/mg-logo.svg) right top no-repeat;
+      background-size: 150px;
+      background-position: right 20px;
+  }
+  h1{ font-size:34px;} 
+  }
+  .vue_client_recaptcha {
+    display: flex;
+    margin: 10px;
+  }
+  .captcha_canvas {
+    border: 2px solid black;
+    margin-left: auto;
+  }

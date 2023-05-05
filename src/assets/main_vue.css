@@ -1,0 +1,75 @@
+body{ margin:0px; padding: 0px; }
+.mobile_menu_icon{ display:none; }
+.header1{
+    position:absolute; top:0px; left:0px; width:100%; height:90px; z-index:50; background-color: #104568;
+}
+.header1 img.logo{ float:left; margin-right:20px; height:90px; }
+.header1 img.logo_sm{ float:left; margin-right:20px; width:100px; display:none; }
+.header2{
+    position:absolute; top:115px; left:0px; width:100%; height:30px;
+    padding-left:120px; line-height:30px;
+    background-color: #e0e0e0;
+    z-index:49;
+    border-bottom:1px solid #cdcdcd;
+}
+.header2 .b{ color:#666;  }
+.header_space{ height: 91px; }
+.footer1{ left:0px; bottom:0px; width:100%; height:30px; border-top:1px solid black;}
+.header1 .btns{ padding:2px; }
+.header1 .btns .menubtn{ display:inline-block; margin-right:10px; border-bottom: 2px solid #333333; cursor:pointer; padding:0px 5px; }
+.header1 .btns .menubtn:hover{ border-bottom: 2px solid white; background-color:rgba(255,255,255,0.2); }
+.header1 .btns .menubtnactive{ border-bottom: 2px solid orange; background-color:rgba(255,255,255,0.2); }
+.header1 ul::after{ clear:both; }
+.header1 ul li{ float:left; margin-right:20px; }
+.header1 .user{ position:absolute; width:250px; right:0px; top:0px; height:60px; padding:5px 10px; text-align:right; }
+.user .userbtn1{ display:inline-block; cursor:pointer; border-bottom: 2px solid #333; }
+.user .userbtn1:hover{ border-bottom:2px solid white; background-color:rgba(255,255,255,0.2); }
+.userbtn1 div.username{ 
+    display:inline-block; 
+    overflow:hidden; 
+    text-overflow: ellipsis; 
+    white-space:nowrap; 
+    max-width:185px; 
+}
+@media only screen and (max-width: 600px) {
+    .header1 {height:60px;}
+    .header1 .btns{ display:none;}
+    .header1 .logo{ display:none; }
+    .header1 .logo_sm{ display:block !important; width:initial !important; margin:0px; height:60px; }
+    .mobile_menu_icon{
+        padding-top:15px; 
+        display:inline-block; 
+        color:white; 
+
+        font-size:25px; 
+        float:left; 
+        height:60px; 
+        width:50px; 
+        text-align:center; 
+    }
+    .header1 .btns2{ display: none; }
+    .header2 { top:60px; padding:0px 10px; text-align:left; }
+    .header_space{ height:90px; }
+}
+.mobile_menu_div{ 
+    position:fixed; top:60px; left:0px; width:100%; height:calc( 100% - 60px );
+    background-color:white; z-index:60; 
+}
+.mobile_menu_div .menubtn{ color:black; padding:2px 5px; border-left:5px solid #cdcdcd; margin:5px; background-color:#f0f0f0; }
+.mobile_menu_div .menubtn:hover{ border-left:5px solid orange; }	
+.mytabs2 { overflow-x:auto; white-space:nowrap; margin-top:5px; margin-bottom:5px; padding-bottom:5px; }
+.mytabs { display:block; height:30px; min-width:100%; white-space:nowrap; }
+.mytab_item{ display:inline-block; cursor:pointer; min-width:50px; height:30px; white-space:nowrap; border:1px solid #ccc; margin-left:5px; }
+.mytab_item:first-child{ min-width:initial;}
+.mytab_item:focus{ outline: 0px; }
+.mytab_item_active{ background-color:#104568; color:white; border-left:2px solid #333; border:2px solid #104568; }
+.mytabs .first{ margin-left:20px; }
+.mytab_item:hover{ }
+.mytab_item div.one{ display:table-cell; max-width:180px; overflow:hidden; text-overflow:ellipsis; padding-left:5px; padding-right:5px; }
+.mytab_item div.two{ display:table-cell; line-height:1; font-size:0.8rem; cursor:pointer; }
+.mytab_item div.two span{ color:#999; font-weight:bold; background-color:white; padding:3px; }
+.mytab_item div.two span:hover{ background-color:#fcc; color:red; }		
+.mytabs2::-webkit-scrollbar {width: 5px; height:5px;}
+.mytabs2::-webkit-scrollbar-track {background: #f1f1f1;}
+.mytabs2::-webkit-scrollbar-thumb {background: #ccc;}
+.mytabs2::-webkit-scrollbar-thumb:hover {background: #555;}

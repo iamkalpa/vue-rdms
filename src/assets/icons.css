@@ -1,0 +1,55 @@
+	.icn_bg {
+	    background: url(/images/mnu_icons.png) 6px 0 no-repeat;
+	    height:22px;
+	    width: 22px;
+	    display: inline-block;
+	    color: #fff;
+	    transition: all linear 0.2s;
+	    background-size: 440px;
+	    cursor:pointer;
+	    margin:0px 5px;
+	}
+	.icn_bg:hover {
+	    color: #fff;
+	}
+	.icn_bg:hover span {
+	    display: block;
+	}
+	.icn_bg span {
+	    display: none;
+	    /* transition: all linear 0.2s; */
+	    position: absolute;
+	    z-index: 999;
+	    width: auto;
+	    border-radius: 2px;
+	    background: white;
+	    text-align: center;
+	    padding: 5px 10px;
+	    color:black;
+	    margin-top:25px;
+	    margin-left:-10px;
+	    box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+	    font-size: 11px;
+	}
+	.m_prf {
+	    background-position: -86px 0px;
+	}
+	.sett {
+	    background-position: -155px 0px;
+	}
+	.myhome {
+	    background-position: -401px 0px;
+	}
+	.hlpln {
+	    background-position: -283px 0px;
+	}
+	.lgut {
+		 background: url(/images/logout-icon.png) 0px 0 no-repeat;
+	    height:25px;
+	    width: 25px;
+	    display: inline-block;
+	    color: #fff;
+	    transition: all linear 0.2s;
+		background-size:25px;
+		margin-top:5px;
+	}

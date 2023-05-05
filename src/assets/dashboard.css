@@ -1,0 +1,87 @@
+.header1 img.logo{ float:left; margin-right:20px; margin-top:8px; margin-left:10px; height:auto !important; }
+        .label{font-size: 11px;color: #707070;line-height:14px; }
+        label { cursor:pointer; }
+        .image_uploadfile { position: absolute;opacity: 0;z-index: -1;}
+        .nav-tabs li a{ font-size: 15px; font-weight: bold; padding: 10px 50px;}
+        .nav-tabs li a.active{ color:#007bff !important;}
+        .btn-close{background: transparent; border: none; font-size: 27px; padding: 0; line-height: 20px;}
+        .btn-cls{position: absolute; top: -18px; right: -18px; border-radius: 40px; width: 23px;height: 23px;line-height: 13px;padding: 0;font-size: 18px;background: #333333;border: 1px solid #333333; color:#ffffff;}
+      
+        .floatingbtn{position:fixed;top:95px;right:30px;text-align:center;box-shadow: 2px 2px 3px #809fff;z-index:1000;} 
+        .nav-pills{background-color:#717E86;}
+        .nav-pills a{color:white;width: 263px;}
+        .nav-pills .nav-link.active, .nav-pills .show>.nav-link{color:black;background-color:white;}    
+
+        .footer {  position: fixed; left: 0; bottom: 0; width: 100%; border-top:1px solid black; /*height:10px;*/ text-align: center;}
+        .btn-primary1{background-color: #104568;}
+        .header1{ background:#181818; height:80px;}
+        .loader {border: 16px solid #f3f3f3;border-radius: 50%;border-top: 16px solid #CF2230;width: 70px;height: 70px;-webkit-animation: spin 2s linear infinite; /* Safari */animation: spin 2s linear infinite;}
+        /* Safari */
+        @-webkit-keyframes spin {
+        0% { -webkit-transform: rotate(0deg); }
+        100% { -webkit-transform: rotate(30deg); }
+        }
+        @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+        }
+        .radio_diselement {background-color:gray; }
+        input[type=text] {text-transform: capitalize;}  
+        textarea { text-transform: capitalize;}  
+        .star {color: #cf2230;} 
+        input[type="date"]::-webkit-inner-spin-button,    
+        input[type="date"]::-webkit-clear-button { display: none; }
+        .user .userbtn1{ width:190px; text-align:left; margin-top:-9px; border:none;}   
+        .user .userbtn1:hover{ background:none; border:none;}
+        .bnametxt{ font-size:12px; max-width: 200px;overflow-y: auto;height: 33px;line-height: 17px;}           
+        .bnametxt::-webkit-scrollbar-thumb {background: #ffffff;border-radius: 5px;}
+        .bnametxt::-webkit-scrollbar { width: 7px;}
+        .bnametxt::-webkit-scrollbar-track { box-shadow: inset 0 0 5px grey;border-radius: 5px;}
+        .db_tab{color:#fff;background-color:#cecece;}       
+        /*dynamic tr*/
+        .even { background: #ffffff;}
+        .odd {background: #f9f9f9;}  
+        .tooltip-wrap {
+            position:relative !important;
+        }
+        .tooltip-wrap .tooltip-content {
+            display: none;
+            position: absolute;
+            background: #fff;
+            z-index: 99;
+            padding: 10px;
+            border-radius: 5px;
+            width: 330px;
+            border: 1px solid #cecece;
+            left: 116px;
+            bottom: -60px;
+        }
+        .tooltip-left::before {
+            content: '';
+            position: absolute;
+            display: block;    
+            width: 0px;        
+            left: 5px;
+            top: 50%;
+            border: 10px solid transparent;
+            border-left: 0;
+            border-right: 10px solid #999999;
+            transform: translate(calc(-100% - 5px), -50%);
+        }
+        /* Chrome, Safari, Edge, Opera */
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+
+        /* Firefox */
+        input[type=number] {
+            -moz-appearance: textfield;
+        }
+        .tooltip-wrap:hover .tooltip-content {
+            display: block;
+        } 
+        .btn-min{
+            min-width: max-content;
+        }      
